@@ -1,0 +1,477 @@
+/*----------------
+ Google font added
+ ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+
+
+/* -----------------
+ common styles and utilities
+ ---------------------------- */
+body {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/*-----------------------------------
+ Header and navigation styles
+ -------------------------------- */
+.header {
+
+    background: rgba(255, 144, 14, 0.1);
+    padding-left: 228px;
+    padding-right: 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+    gap: 300px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #131313;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 26px;
+
+
+}
+
+nav li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.brand-new {
+    text-align: center;
+    padding-top: 116px;
+    margin-bottom: 50px;
+
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+}
+
+.brand-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.header-banner {
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+    padding-bottom: 50px;
+
+
+}
+
+.header-banner img {
+    width: 850px;
+    height: 500px;
+
+}
+
+/*-------------------------------
+ Quick list section styles
+ ----------------------------------- */
+.quick-list {
+    margin-top: 85px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.our-team {
+    display: flex;
+    gap: 70px;
+
+}
+
+.listed-person {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+
+}
+
+.listed-person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.features {}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.our {
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+/*--------------------------
+ Love and Enjoy styles
+ --------------------------- */
+.love-and-enjoy {
+    margin: 116px 120px 114px 120px;
+}
+
+.love-enjoy {
+    display: flex;
+    gap: 27px;
+}
+
+.love-title {
+    padding-bottom: 65px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #131313;
+    padding-left: 10px;
+    border-left-style: solid;
+    border-left-color: #FF900E;
+    border-left-width: 5px;
+
+}
+
+.love-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 65px;
+}
+
+.area {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.area-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.area-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.enjoy img {
+    width: 700px;
+    height: 1260px;
+}
+
+.btn-year {
+    width: 200px;
+    height: 150px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    left: 420px;
+    top: 2950px;
+
+}
+
+.btn-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn-sub-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*-----------------------------
+ Some Facts styles
+ ------------------------------ */
+.facts {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.project-summary {
+    margin-top: 70px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 70px;
+}
+
+.summary {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.summary:hover {
+    transform: rotate(45deg);
+    background-color: aqua;
+}
+
+.summary img {
+
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15px;
+
+}
+
+.number {
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+    color: Dark 02;
+}
+
+.number:hover {
+    color: red;
+}
+
+.summary-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+
+}
+
+/*---------------------------------
+ New added styles
+ ----------------------------------- */
+.cricket {
+    margin: 100px 120px 100px 120px;
+}
+
+.cricket-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+.field {
+    border: 5px solid greenyellow;
+}
+
+.field:hover .bat {
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 25px;
+    position: relative;
+    left: 300px;
+    transition: transform 1s ease-out 0.3s;
+}
+
+.bat {
+    transition: transform 0.2s ease-in;
+}
+
+.field:hover .ball {
+    transform: translate(650px, -180px);
+}
+
+/*---------------------------------
+ sponsors styles
+ ------------------------------------ */
+.sponsor {
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.company {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 70px;
+}
+
+.company img {
+    width: 100px;
+    height: 50px;
+
+}
+
+
+/*---------------------------
+ Footer styles
+ ------------------------------  */
+footer {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 100px;
+
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 39px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/*------------------
+ Responsive styles
+ ------------- */
+
+/* For mobile device */
+@media only screen and (max-width:576px) {
+    .header {
+        width: 100%;
+
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul {
+        padding-top: 0;
+    }
+
+    .nav-title {
+        text-align: center;
+    }
+
+    .header-banner img {
+        width: 100%;
+    }
+
+    .quick-list {
+        width: 100%;
+    }
+
+    .our-team {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .listed-person {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+
+
+
+    }
+
+    .listed-person img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+
+
+}
+
+/* For Tablet device */
+@media only screen and (min-width:577px) and (max-width:992px) {}
+
+
+
+.hide {
+    display: none;
+}
